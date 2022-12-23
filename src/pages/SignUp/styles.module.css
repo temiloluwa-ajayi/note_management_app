@@ -1,0 +1,16 @@
+.container {
+  text-align: center;
+  width: 80%;
+  margin-inline: auto;
+}
+.google {
+  margin: 40px 0;
+}
+.google a {
+  text-decoration: none;
+  color: #636364;
+}
+.forgot {
+  text-align: right;
+  margin: 7px 0;
+}

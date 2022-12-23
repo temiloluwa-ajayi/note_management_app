@@ -1,14 +1,12 @@
-import React from 'react'
-import AllRoute from './routes';
+import React from "react";
+import AllRoute from "./routes";
 
-
-const App=(props) =>{
+const App = (props) => {
   return (
-    <diV>
+    <div>
       <AllRoute />
-    </diV>
-  )
-  
-}
+    </div>
+  );
+};
 
 export default App;

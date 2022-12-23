@@ -7,26 +7,24 @@ import TextInput from "../../components/common/TextInput";
 import AuthLayout from "../../components/layouts/AuthLayout";
 import styles from "./styles.module.css";
 
-function SignUpPage() {
+function LoginPage() {
   const initialValues = {
-    fullName: "",
     email: "",
     password: "",
   };
   const handleSubmit = (values, helpers) => {
     console.log(values);
   };
-
   return (
     <AuthLayout>
       <div className={styles.container}>
-        <h1>Welcome to Onenote</h1>
-        <p>Best note management system </p>
+        <h1>Welcome back, Kehinde</h1>
+        <p>Glad you’re back, Please enter your details</p>
 
         <p className={styles.google}>
           <Link to="#">
             <Icon icon="logos:google-icon" style={{ marginright: 10 }} inline />{" "}
-            Signup with Google
+            Login with Google
           </Link>
         </p>
         <p>or</p>
@@ -34,11 +32,6 @@ function SignUpPage() {
           {() => (
             <Form>
               <div className="mt-40">
-                <Field name="fullName">
-                  {({ field, meta }) => (
-                    <TextInput placeholder="Full Name" {...field} />
-                  )}
-                </Field>
                 <Field name="email">
                   {({ field, meta }) => (
                     <TextInput
@@ -68,7 +61,8 @@ function SignUpPage() {
                 </div>
 
                 <p className="mt-40">
-                  Already have an account? <Link to="/login">Login Here</Link>
+                  Don’t have an account?{" "}
+                  <Link to="/signup">Sign up for free</Link>
                 </p>
               </div>
             </Form>
@@ -78,5 +72,4 @@ function SignUpPage() {
     </AuthLayout>
   );
 }
-
-export default SignUpPage;
+export default LoginPage;
