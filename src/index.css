@@ -20,6 +20,9 @@ body {
 .mb-20 {
   margin-bottom: 20px;
 }
+.mt-10{
+  margin-top: 10px;
+}
 a {
   text-decoration: none;
   color: var(--primary-color);

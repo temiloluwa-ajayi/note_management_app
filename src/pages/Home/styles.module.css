@@ -1,0 +1,41 @@
+.emptyContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.emptyContainer h1 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.left {
+  width: 350px;
+  border-right: 20px solid #f8f8fe;
+  padding: 30px 6px;
+}
+.right {
+  flex: 1;
+}
+.logoHo {
+  margin: 30px 10px;
+  border-radius: 40px;
+  height: 40vh;
+  width: 90%;
+}
+.saved {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4a4afa;
+  text-align: center;
+}
