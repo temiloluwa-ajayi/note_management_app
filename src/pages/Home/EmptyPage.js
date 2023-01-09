@@ -2,6 +2,7 @@ import { Icon } from "@iconify/react";
 import React from "react";
 import Button from "../../components/common/Button";
 import styles from "./styles.module.css";
+import { Link } from "react-router-dom";
 
 function EmptyPage() {
   return (
@@ -13,7 +14,9 @@ function EmptyPage() {
         icon="majesticons:note-text-plus"
       />
       <h1>You have nothing here</h1>
-      <Button text="Start new note" width="auto" />
+      <Link to="/blankPage">
+        <Button text="Start new note" width="auto" />
+      </Link>
     </div>
   );
 }

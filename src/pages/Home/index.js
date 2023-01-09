@@ -6,6 +6,7 @@ import Modal from "../../components/Modal";
 import EmptyPage from "./EmptyPage";
 import styles from "./styles.module.css";
 import img from "../../assets/images/logoHome.jpg";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   const isEmpty = false;
@@ -71,10 +72,13 @@ function HomePage() {
                   border: "none",
                 }}
               >
+                {" "}
+                <Link to="/tasks"> TaskPage</Link>
                 Write new note
               </button>
             </div>
           </div>
+          Home{" "}
         </Modal>
       </div>
     </>

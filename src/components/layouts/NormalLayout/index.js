@@ -12,7 +12,7 @@ function NormalLayout() {
           <img src={images.logo} alt="logo" className={styles.logo} />
           <ul className={styles.nav}>
             <li className={styles.active}>
-              <Link to="">
+              <Link to="/emptyPage">
                 <Icon
                   icon="ic:baseline-note-alt"
                   width={24}

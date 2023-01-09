@@ -13,7 +13,7 @@ function SignUpPage() {
     email: "",
     password: "",
   };
-  const handleSubmit = (values, helpers) => {
+  const handleSubmit = (values) => {
     console.log(values);
   };
 

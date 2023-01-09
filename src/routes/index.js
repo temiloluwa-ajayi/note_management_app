@@ -1,8 +1,10 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NormalLayout from "../components/layouts/NormalLayout";
+import BlankPage from "../pages/BlankPage";
 import FavouritePage from "../pages/Favourite";
 import HomePage from "../pages/Home";
+import EmptyPage from "../pages/Home/EmptyPage";
 import LoginPage from "../pages/LogIn";
 import ReminderPage from "../pages/Reminder";
 import SignUpPage from "../pages/SignUp";
@@ -19,6 +21,8 @@ function AllRoute() {
           <Route path="/tasks" element={<TaskPage />} />
           <Route path="/reminder" element={<ReminderPage />} />
           <Route path="/favourite" element={<FavouritePage />} />
+          <Route path="/emptyPage" element={<EmptyPage />} />
+          <Route path="/blankPage" element={<BlankPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
