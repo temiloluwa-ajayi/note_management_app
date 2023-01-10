@@ -65,7 +65,7 @@ function NormalLayout() {
         <div className={styles.bottom}>
           <h4>Kehinde Odubunmi</h4>
           <h5>
-            <Link to="#">Logout</Link>
+            <Link to="/login">Logout</Link>
           </h5>
         </div>
       </aside>

@@ -2,3 +2,15 @@
   border-radius: 40px;
   background-color: #4a4afa;
 }
+.saved {
+  width: 100px;
+  background-color: #4a4afa;
+  border-radius: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
